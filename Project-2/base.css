@@ -1,0 +1,144 @@
+@import url("https://fonts.googleapis.com/css2?family=Mulish:wght@300;400;500;700&display=swap");
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  background: brown;
+  font-family: "Mulish", sans-serif;
+}
+p,
+h1 {
+  color: #f3f3f3;
+}
+input {
+  padding: 12px;
+  border-radius: 10px;
+  border: none;
+  outline: none;
+}
+input:focus {
+  outline: none;
+}
+label {
+  font-size: 1.5rem;
+}
+
+#main {
+  width: 70%;
+  margin: 0 auto;
+  min-height: 100vh;
+}
+
+#title {
+  font-size: 2rem;
+  text-align: center;
+  margin-top: 3rem;
+}
+
+#description {
+  text-align: center;
+  margin-bottom: 2.5rem;
+  margin-top: 1rem;
+  font-size: 1.3rem;
+}
+
+#input-form {
+  background: rgba(27, 27, 50, 0.7);
+  min-height: 100vh;
+  color: #f3f3f3;
+  width: 80%;
+  padding: 1rem;
+  border-radius: 10px;
+  margin: 0 auto;
+}
+
+#form-group-1 {
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+  gap: 1rem;
+  width: 80%;
+  margin: 1rem auto;
+}
+
+#form-group-2 {
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+  gap: 1rem;
+  width: 80%;
+  margin: 1rem auto;
+}
+
+#form-group-3 {
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+  gap: 1rem;
+  width: 80%;
+  margin: 1rem auto;
+}
+
+#form-group-4 {
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+  gap: 1rem;
+  width: 80%;
+  margin: 1rem auto;
+}
+
+#form-group-5 {
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+  gap: 1rem;
+  width: 80%;
+  margin: 1rem auto;
+}
+
+#form-group-6 {
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+  gap: 1rem;
+  width: 80%;
+  margin: 1rem auto;
+}
+
+#dropdown {
+  padding: 12px;
+  border-radius: 10px;
+  outline: none;
+}
+
+#text-area {
+  resize: none;
+  font-size: 1rem;
+  height: 120px;
+}
+
+#submit {
+  font-size: 20px;
+  padding: 10px;
+  background-color: #37af65;
+  border: 1px solid #37af65;
+  cursor: pointer;
+  color: #f3f3f3;
+}
+
+@media screen and (max-width: 700px) {
+  #input-form {
+    width: 100%;
+    background: rgba(27, 27, 50, 0.7);
+    min-height: 100vh;
+    color: #f3f3f3;
+    padding: 2rem;
+    border-radius: 10px;
+    margin: 0 auto;
+  }
+}
