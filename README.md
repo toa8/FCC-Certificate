@@ -8,5 +8,5 @@
 - Build a Product Landing Page
 - Build a Personal Portfolio Webpage
 
-###  Certificate [link]("https://www.freecodecamp.org/certification/toa8/responsive-web-design")
+###  [Certificate]("https://www.freecodecamp.org/certification/toa8/responsive-web-design")
 
